@@ -7,3 +7,15 @@ function yes() {
   document.getElementById("body").innerHTML =
     "<h2 style=' color: deeppink;margin-top: 99px;margin-left: 46px;font-size: 30px;' >I love you princess 😘। তোমাকে এভাবে জ্বালাতে থাকবো সহ্য করতে পারবে?</h2>";
 }
+
+let wlc = document.getElementById("wlc1");
+console.log(wlc);
+let a = 1;
+setInterval(() => {
+  if (a % 2 == 0) {
+    wlc.style.color = "black";
+  } else {
+    wlc.style.color = "white";
+  }
+  a++;
+}, 500);
