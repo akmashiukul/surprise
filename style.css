@@ -36,3 +36,10 @@
     width: 36%;
 
 }
+#low{
+    display: block;
+    margin: auto;
+    width: 59px;
+    margin-bottom: 12px;
+    font-size: 23px;
+}
