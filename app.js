@@ -13,9 +13,9 @@ console.log(wlc);
 let a = 1;
 setInterval(() => {
   if (a % 2 == 0) {
-    wlc.style.color = "black";
+    wlc.style.color = "yellow";
   } else {
-    wlc.style.color = "white";
+    wlc.style.color = "lightpink";
   }
   a++;
 }, 500);
