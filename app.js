@@ -20,7 +20,7 @@ function yes() {
   setTimeout(() => {
     document.getElementById("body").innerHTML =
       "<h2 style=' color: deeppink;margin-top: 99px;margin-left: 46px;font-size: 30px;' >I love you princess 😘। তোমাকে এভাবে জ্বালাতে থাকবো সহ্য করতে পারবে?</h2>";
-  }, 4000);
+  }, 2000);
 }
 
 let wlc = document.getElementById("wlc1");
