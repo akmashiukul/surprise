@@ -10,12 +10,12 @@ function yes() {
 
 let wlc = document.getElementById("wlc1");
 console.log(wlc);
-let a = 1;
-setInterval(() => {
-  if (a % 2 == 0) {
-    wlc.style.color = "yellow";
-  } else {
-    wlc.style.color = "lightpink";
-  }
-  a++;
-}, 500);
+// let a = 1;
+// setInterval(() => {
+//   if (a % 2 == 0) {
+//     wlc.style.color = "yellow";
+//   } else {
+//     wlc.style.color = "lightpink";
+//   }
+//   a++;
+// }, 500);
