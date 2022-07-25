@@ -45,3 +45,92 @@
     margin-bottom: 12px;
     font-size: 19px;
 }
+
+#love{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+@keyframes love-1 {
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:-250px;}
+    50%  { left:70vh; top:-250px;}
+    75%  { left:240px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+@keyframes love-2 {
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:-250px;}
+    50%  { left:50vh; top:-250px;}
+    75%  { left:50vh; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+@keyframes love-3 {
+    0%  { left:0px; top:0px;}
+    10%   { left:-179px; top:-254px;}
+    25%  { left:101px; top:-256px;}
+    50%  { left:111px; top:0px;}
+    75%  { left:-39px; top:-94px;}
+    100% { left:0px; top:0px;}
+  }
+@keyframes love-4 {
+    0%  { left:0px; top:0px;}
+    10%   { left:0px; top:-254px;}
+    25%  { left:-255px; top:-254px;}
+    50%  { left:0px; top:-0px;}
+    75%  { left:-91px; top:-90px;}
+    100% { left:0px; top:0px;}
+  }
+
+@keyframes move-1{
+    0%{top: 0px; left: 0px;}
+50%{top: -88px;
+    left: 70px;
+}
+100%{top: 0px; left: 0px;}
+}
+@keyframes move-2{
+    0%{top: 0px; left: 0px;}
+50%{top: -92px;
+    left: 21px;
+}
+100%{top: 0px; left: 0px;}
+}
+@keyframes move-3{
+    0%{top: 0px; left: 0px;}
+50%{top: -92px;
+    left: -8px;
+}
+100%{top: 0px; left: 0px;}
+}
+@keyframes move-4{
+    0%{top: 0px; left: 0px;}
+50%{top: -92px;
+    left: -46px;
+}
+100%{top: 0px; left: 0px;}
+}
+#love-1{
+    position: relative;
+  animation-name: love-1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#love-2{
+    position: relative;
+  animation-name: love-2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#love-3{
+    position: relative;
+  animation-name: love-3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#love-4{
+    position: relative;
+  animation-name: love-4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
