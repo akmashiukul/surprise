@@ -51,7 +51,7 @@
     justify-content: space-around;
     font-size: 20px;
 }
-@keyframes love-1 {
+/* @keyframes love-1 {
     0%   { left:0px; top:0px;}
     25%  { left:0px; top:-250px;}
     50%  { left:70vh; top:-250px;}
@@ -80,7 +80,7 @@
     50%  { left:0px; top:-0px;}
     75%  { left:-91px; top:-90px;}
     100% { left:0px; top:0px;}
-  }
+  } */
 
 @keyframes move-1{
     0%{top: 0px; left: 0px;}

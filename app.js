@@ -16,7 +16,9 @@ function yes() {
   love_3.style.animationDuration = "2s";
   love_4.style.animationName = "move-4";
   love_4.style.animationDuration = "2s";
-
+  let btn_1 = document.getElementById("btn-1");
+  btn_1.style.color = "deeppink";
+  btn_1.style.backgroundColor = "mediumblue";
   setTimeout(() => {
     document.getElementById("body").innerHTML =
       "<h2 style=' color: deeppink;margin-top: 99px;margin-left: 46px;font-size: 30px;' >I love you princess 😘। তোমাকে এভাবে জ্বালাতে থাকবো সহ্য করতে পারবে?</h2>";
