@@ -4,8 +4,25 @@ function no() {
     "Thank you for everything 😞.তোমাকে আর জ্বালাবো না। ধন্যবাদ";
 }
 function yes() {
-  document.getElementById("body").innerHTML =
-    "<h2 style=' color: deeppink;margin-top: 99px;margin-left: 46px;font-size: 30px;' >I love you princess 😘। তোমাকে এভাবে জ্বালাতে থাকবো সহ্য করতে পারবে?</h2>";
+  let love_1 = document.getElementById("love-1");
+  let love_2 = document.getElementById("love-2");
+  let love_3 = document.getElementById("love-3");
+  let love_4 = document.getElementById("love-4");
+  love_1.style.animationName = "move-1";
+  love_1.style.animationDuration = "2s";
+  love_2.style.animationName = "move-2";
+  love_2.style.animationDuration = "2s";
+  love_3.style.animationName = "move-3";
+  love_3.style.animationDuration = "2s";
+  love_4.style.animationName = "move-4";
+  love_4.style.animationDuration = "2s";
+  let btn_1 = document.getElementById("btn-1");
+  btn_1.style.color = "deeppink";
+  btn_1.style.backgroundColor = "mediumblue";
+  setTimeout(() => {
+    document.getElementById("body").innerHTML =
+      "<h2 style=' color: deeppink;margin-top: 99px;margin-left: 46px;font-size: 30px;' >I love you princess 😘। তোমাকে এভাবে জ্বালাতে থাকবো সহ্য করতে পারবে?</h2>";
+  }, 2000);
 }
 
 let wlc = document.getElementById("wlc1");
