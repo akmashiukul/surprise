@@ -134,3 +134,7 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+#main{
+    width: 90vh;
+    height: 408px;
+}
