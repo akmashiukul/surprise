@@ -1,7 +1,7 @@
 console.log("Hello");
 function no() {
   document.getElementById("body").innerHTML =
-    "Thank you for everything 😞.তোমাকে আর জ্বালাবো না। ধন্যবাদ";
+    "Thank you for everything 😞.তোমাকে আর জ্বালাবো না। ধন্যবাদ। দুষ্টু মেয়ে Yes টিপ দিয়ে চেক করতে আসছো তাই না।";
 }
 function yes() {
   let love_1 = document.getElementById("love-1");
